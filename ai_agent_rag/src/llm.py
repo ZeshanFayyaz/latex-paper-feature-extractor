@@ -25,7 +25,8 @@ def _strip_to_json(text: str) -> str:
 
 def call_llm(prompt: str, model: str = None) -> QueryResponse:
     client = get_client()
-    model = model or os.getenv("OPENAI_MODEL", "gpt-4o-mini")
+    model = model or os.getenv("OPENAI_MODEL", "llama3.1")
+
 
     messages = [
         {"role": "system", "content": "You are a careful assistant. Return ONLY valid JSON."},
