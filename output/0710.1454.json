@@ -1,0 +1,38 @@
+{
+  "title": "Constraining Right-Handed Scale Through Kaon Mixing \\\\in Supersymmetric Left-Right Model",
+  "abstract": "We study flavor-changing neutral current and CP violations in the minimal supersymmetric left-right model. We calculate the beyond-standard-model contributions to the neutral kaon mixing $\\Delta M_K$ and $\\epsilon$, and find possible to have a numerical cancelation between the contributions from the right-handed gauge boson and supersymmetric box diagram. With the cancelation, the right-handed $W$-boson mass scale can be lowered to about 2 TeV, well within the search limit of LHC.",
+  "year": "2074",
+  "main_text_sample": {
+    "start": "\\documentclass[prd,aps,preprint,tightenlines,superscriptaddress]{revtex4}\n\\usepackage{amsfonts}\n\\usepackage{mathrsfs}\n\\usepackage{amssymb}\n%y\\documentclass[prd,aps,preprint,tightenlines]{revtex}\n\\usepackage{epsfig}\n\\usepackage{amsmath}\n\\begin{document}\n\\title{Constraining Right-Handed Scale Through Kaon Mixing \\\\in Supersymmetric Left-Right Model}\n\\author{Yue Zhang}\n\\affiliation{Center for High-Energy Physics and Institute of\nTheoretical Physics, Peking University, Beijing 100871, China}\n \\affil",
+    "end": "patra:2008gz}\n  R.~N.~Mohapatra, N.~Setzer and S.~Spinner,\n  %``Seesaw Extended MSSM and Anomaly Mediation without Tachyonic Sleptons,''\n  JHEP {\\bf 0804}, 091 (2008)\n  [arXiv:0802.1208 [hep-ph]].\n  %%CITATION = JHEPA,0804,091;%%\n\n%\\cite{Khalil:2001wr}\n\\bibitem{Khalil:2001wr}\n  S.~Khalil and O.~Lebedev,\n  %``Chargino contributions to epsilon and epsilon',''\n  Phys.\\ Lett.\\  B {\\bf 515}, 387 (2001)\n  [arXiv:hep-ph/0106023].\n  %%CITATION = PHLTA,B515,387;%%\n\n\n\\end{thebibliography}\n\n\\end{document}"
+  },
+  "citations": [
+    "scpv",
+    "Mohapatra:2008gz",
+    "Khalil:2001wr",
+    "Francis:1990pi",
+    "PDG",
+    "gluino, mssm",
+    "susylr2",
+    "Dugan:1984qf",
+    "lee",
+    "susylr, Babu:2001se",
+    "susylr",
+    "Kiers:2002cz",
+    "Masip:1995sm",
+    "Frank:2003yi",
+    "Aulakh:1997fq",
+    "Wu:2007kt",
+    "Babu:2001se",
+    "lrmodel",
+    "susylr2, RpVpaper",
+    "our paper",
+    "Aulakh:1997ba",
+    "rge",
+    "Aulakh:1998nn",
+    "Basecq:1985cr",
+    "gluino"
+  ],
+  "equations": [],
+  "first_table": "N/A"
+}

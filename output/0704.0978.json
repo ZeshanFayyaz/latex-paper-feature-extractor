@@ -1,0 +1,18 @@
+{
+  "title": "Distribution of the molecular absorption in front of the quasar B0218+357",
+  "abstract": "N/A",
+  "year": "2007",
+  "main_text_sample": {
+    "start": "\\documentclass[oldversion]{aa}\n\n\n\\usepackage{epsfig,graphicx}\n\\usepackage{natbib}\n\n\n\\begin{document}\n\n\\title{Distribution of the molecular absorption in front of the quasar B0218+357}\n\n\\author{Muller S. \\inst{1} \\and Gu\\'elin M. \\inst{2}\n\\and Combes F. \\inst{3} \\and Wiklind T. \\inst{4}}\n\n\\offprints{muller@asiaa.sinica.edu.tw}\n\\institute{\nAcademia Sinica Institute of Astronomy and Astrophysics (ASIAA), P.O. Box 23--141, Taipei, 106 Taiwan\n\\and\nInstitut de Radio Astronomie Millim\\'etrique (IRAM",
+    "end": "., 1995, \\aap, 299, 382}\n\\bibitem[Wiklind \\& Combes(1996)]{wik96}{Wiklind, T. \\& Combes, F., 1996, \\aap, 315, 86}\n\\bibitem[Wiklind \\& Combes(1997)]{wik97}{Wiklind, T. \\& Combes, F., 1997, \\aap, 328, 48}\n\\bibitem[Wiklind \\& Combes(1998)]{wik98}{Wiklind T. \\& Combes F., 1998, \\apj, 500, 129}\n\\bibitem[Wucknitz et al.(2004)]{wuc04}{Wucknitz, O., et al., 2004, \\mnras, 349, 14}\n\\bibitem[York et al.(2005)]{yor05}{York, T., et al., 2005, \\mnras, 357, 124}\n\n\\end{thebibliography}\n\n\n\n\n\n\n\n\n\n\n\\end{document}"
+  },
+  "citations": [
+    "mit06b",
+    "wuc04",
+    "mul06",
+    "yor05",
+    "men96"
+  ],
+  "equations": [],
+  "first_table": "N/A"
+}

@@ -1,0 +1,46 @@
+{
+  "title": "A Cascade Model for Particle Concentration \nand Enstrophy in Fully Developed Turbulence with Mass Loading Feedback",
+  "abstract": "A cascade model is described based on multiplier distributions determined from 3D direct numerical simulations (DNS) of turbulent particle laden flows, which include two-way coupling between the phases at global mass loadings equal to unity. The governing Eulerian equations are solved using psuedo-spectral methods on up to $512^3$ computional grid points. DNS results for particle concentration and enstrophy at Taylor microscale Reynolds numbers in the range 34 - 170 were used to directly determine multiplier distributions on spatial scales 3 times the Kolmogorov length scale. The multiplier probability distribution functions (PDFs) are well characterized by the $\\beta$ distribution function. The width of the PDFs, which is a measure of intermittency, decreases with increasing mass loading within the local region where the multipliers are measured. The functional form of this dependence is not sensitive to Reynolds numbers in the range considered. A partition correlation probability is included in the cascade model to account for the observed spatial anticorrelation between particle concentration and enstrophy. Joint probability distribution functions of concentration and enstrophy generated using the cascade model are shown to be in excellent agreement with those derived directly from our 3D simulations. Probabilities predicted by the cascade model are presented at Reynolds numbers well beyond what is achievable by direct simulation. These results clearly indicate that particle mass loading significantly reduces the probabilities of high particle concentration and enstrophy relative to those resulting from unloaded runs. Particle mass density appears to reach a limit at around 100 times the gas density. This approach has promise for significant computational savings in certain applications.",
+  "year": "1990",
+  "main_text_sample": {
+    "start": "\\documentclass[aps,pra,twocolumn,groupedaddress,showkeys,showpacs,floatfix]{revtex4}\n\\usepackage{amsmath,amssymb,amsfonts,graphicx,bm,dcolumn}\n\\setlength{\\topmargin}{-0.5 in}\n\\begin{document}\n\n\\title{A Cascade Model for Particle Concentration \nand Enstrophy in Fully Developed Turbulence with Mass Loading Feedback}\n\\author{R. C. Hogan}  \n\\affiliation{Bay Area Environmental Research Institute; MS 245-3 Moffett Field, CA  94035-1000 }  \n\\email{hogan@cosmic.arc.nasa.gov}   \n\\author{J. N. Cuzzi}",
+    "end": "ambridge, U.K.}, \\bibinfo{year}{1995}),\n  chap.~\\bibinfo{chapter}{8}.\n\n\\bibitem[{\\citenamefont{Johansen et~al.}(2004)\\citenamefont{Johansen, Anderson,\n  and Brandenburg}}]{Johansen:1}\n\\bibinfo{author}{\\bibfnamefont{A.}~\\bibnamefont{Johansen}},\n  \\bibinfo{author}{\\bibfnamefont{A.~C.} \\bibnamefont{Anderson}},\n  \\bibnamefont{and}\n  \\bibinfo{author}{\\bibfnamefont{A.}~\\bibnamefont{Brandenburg}},\n  \\bibinfo{journal}{Astron. Astrophys.}  (\\bibinfo{year}{2004}).\n\n\\end{thebibliography}\n\n\n\n\\end{document}"
+  },
+  "citations": [
+    "Richardson:1",
+    "Sreenivasan:1",
+    "Meneveau:3",
+    "Jimenez:2,He:1",
+    "Squires:4,Kulick:1",
+    "Squires:1,Elghobashi:2",
+    "Novikov:2,Novikov:1",
+    "Frisch:1",
+    "Squires:3,Ahmed:2",
+    "Maxey:1",
+    "Chiueh:1",
+    "Squires:3,Eaton:1",
+    "Johansen:1",
+    "Hogan:1,Balkovsky:1",
+    "Cao:1",
+    "Pumir:1,Lamballais:1",
+    "Novikov:1",
+    "Hogan:1",
+    "Vincent:1",
+    "Kulick:1",
+    "Komolgorov:1",
+    "Squires:4,Squires:1,Squires:2,Kulick:1",
+    "Castaing:1,Dinavahi:1,Kailasnath:1",
+    "Elghobashi:2",
+    "Squires:1",
+    "Jimenez:1",
+    "Gorokhovski:1"
+  ],
+  "equations": [
+    "\\label{beta} p(m) = \\frac{\\Gamma(2\\beta)}{\\Gamma(\\beta)^2} m^{\\beta-1}(1-m)^{\\beta-1}",
+    "q = \\int_{0}^{\\infty}E(k)dk",
+    "\\epsilon = 2\\nu\\int_{0}^{\\infty}E(k)k^2dk",
+    "\\Lambda = \\frac{3\\pi}{4q}\\int_{0}^{\\infty}\\frac{E(k)}{k}dk",
+    "\\frac{\\Delta V(S,C)}{\\delta^2} =\n\\frac{ P(S,C)\\Delta S \\Delta C}{\\Delta (logS) \\Delta (logC)}\n\\rightarrow P(S,C)SC \\hspace{0.1 in} {\\rm as} \\hspace{0.1 in} \\delta \\rightarrow 0."
+  ],
+  "first_table": "\\begin{table}[h]\n\\begin{center}\n\\begin{tabular}{|c|c|c|c|c|}\n\\hline\nParameter & Case I & Case II & Case III & Case IV \\\\\n\\hline\nNodes/side            & 64       & 128      & 256       &   512  \\\\\n$\\nu$                 & .01      & .003     & .0007     &  .0002 \\\\\n$Re_{\\lambda}$        & 34       & 60.      & 104       &   170  \\\\\n$q$                   & 1.5      & .65      & .28       &   .14  \\\\\n$\\frac{\\epsilon}{\\nu}$ & 23.      & 22.8  & 22.4   &   23   \\\\\n$ k_{max}\\eta$         & 1.4      & 1.5      & 1.45      &   1.56  \\\\\n$\\frac{\\Lambda}{\\eta}$ & 14.1 & 23.3 & 45.8 & 86.2 \\\\\n$\\Gamma$                & .31      & .29      & .27       &  .32   \\\\ \n$D$                   &  .0001   & .00003   & .000007   &  .000002 \\\\ \n$\\nu_{p}$             &  .001    & .0003.   & .00007    &  .00002  \\\\\n\\hline\n\\end{tabular}\n\\caption{\\label{tab1}Case Parameters for DNS runs. The quantities $D$ and $\\nu_p$\nare defined in the Appendix. Other quantities above are defined in Section II.}\n\n\n\n\\end{center}\n\\end{table}"
+}

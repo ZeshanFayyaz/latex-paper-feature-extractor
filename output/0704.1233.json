@@ -1,0 +1,33 @@
+{
+  "title": "Residual entropy in a model for the unfolding of single\npolymer chains",
+  "abstract": "N/A",
+  "year": "2020",
+  "main_text_sample": {
+    "start": "\\documentclass[doublecol,figures]{epl2} \n\n\n\n\\title{Residual entropy in a model for the unfolding of single\npolymer chains}\n\\author{E. Van der Straeten\\thanks{Research Assistant of the Research\nFoundation - Flanders (FWO - Vlaanderen)}\\thanks{\\email{Erik.VanderStraeten@ua.ac.be}}\\and J. Naudts\\thanks{\\email{Jan.Naudts@ua.ac.be}}}\n\\shortauthor{E. Van der Straeten \\etal}\n\\institute{                    \n  \\inst{1} Departement Fysica, Universiteit Antwerpen, Groenenborgerlaan 171,\n2020 Antwerpen, Bel",
+    "end": "zo, A. Maritan, F. Seno, {\\sl Mechanical\nunfolding of directed polymers in a poor solvent: Critical exponents,} Phys.\nRev. E {\\bf 67}, 041802 (2003)\n\n\\bibitem{referee14} A. Ahsan, J. Rudnick, R. Bruinsma, {\\sl Elasticity theory of\nthe B-DNA to S-DNA transition,} Biophys. J. {\\bf 74}, 132 (1998)\n\n\\bibitem{referee15} P. Cluzel, A. Lebrun, C. Heller, R. Lavery, J.-L. Viovy, D.\nChatenay, F. Caron {\\sl DNA: An extensible molecule,} Science {\\bf 271}, 792\n(1996)\n\n\\end{thebibliography}\n\n\\end{document}"
+  },
+  "citations": [
+    "referee6,referee7,referee8",
+    "referee6,referee12",
+    "referee8b",
+    "referee3,referee4",
+    "referee14",
+    "referee2",
+    "referee12",
+    "referee11",
+    "referee7",
+    "referee15",
+    "referee5",
+    "referee10bis",
+    "referee13",
+    "referee8bis",
+    "referee9",
+    "referee6",
+    "referee1",
+    "referee9,referee10",
+    "referee10,referee11",
+    "referee10"
+  ],
+  "equations": [],
+  "first_table": "N/A"
+}

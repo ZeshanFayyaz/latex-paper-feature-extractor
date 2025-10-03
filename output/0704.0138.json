@@ -1,0 +1,50 @@
+{
+  "title": "Circular and non-circular nearly horizon-skimming orbits in\n  Kerr spacetimes",
+  "abstract": "We have performed a detailed analysis of orbital motion in the vicinity of a nearly extremal Kerr black hole. For very rapidly rotating black holes --- spin parameter $a \\equiv J/M > 0.9524M$ --- we have found a class of very strong field eccentric orbits whose orbital angular momentum $L_z$ increases with the orbit's inclination with respect to the equatorial plane, while keeping latus rectum and eccentricity fixed. This behavior is in contrast with Newtonian intuition, and is in fact opposite to the ``normal'' behavior of black hole orbits. Such behavior was noted previously for circular orbits; since it only applies to orbits very close to the black hole, they were named ``nearly horizon-skimming orbits''. Our current analysis generalizes this result, mapping out the full generic (inclined and eccentric) family of nearly horizon-skimming orbits. The earlier work on circular orbits reported that, under gravitational radiation emission, nearly horizon-skimming orbits exhibit unusual inspiral, tending to evolve to smaller orbit inclination, toward prograde equatorial configuration. Normal orbits, by contrast, always demonstrate slowly {\\it growing} orbit inclination --- orbits evolve toward the retrograde equatorial configuration. Using up-to-date Teukolsky-based fluxes, we have concluded that the earlier result was incorrect --- all circular orbits, {\\it including nearly horizon-skimming ones}, exhibit growing orbit inclination under radiative backreaction. Using kludge fluxes based on a Post-Newtonian expansion corrected with fits to circular and to equatorial Teukolsky-based fluxes, we argue that the inclination grows also for eccentric nearly horizon-skimming orbits. We also find that the inclination change is, in any case, very small. As such, we conclude that these orbits are {\\it not} likely to have a clear and peculiar imprint on the gravitational waveforms expected to be measured by the space-based detector LISA.",
+  "year": "1915",
+  "main_text_sample": {
+    "start": "\\documentclass[aps,prd,twocolumn,showpacs,groupedaddress,nofootinbib]{revtex4}\n\n\\usepackage{graphicx}  \\usepackage{dcolumn}   \\usepackage{bm}        \\usepackage[english]{babel}\n\\usepackage{amsfonts,amsmath,amssymb,mathrsfs}\n\\usepackage{times}\n\\urlstyle{sf}\n\n\\newcommand{\\araa}{Ann.\\ Rev.\\ Astron.\\ Astrophys.}\n\\newcommand{\\aap}{Astron.\\ Astrophys.}\n\\newcommand{\\apjl}{Astrophys.\\ J.\\ Lett.}\n\\newcommand{\\pasp}{Publ. Astron. Soc. Pac.}\n\\newcommand{\\cqg}{Class.\\ Quantum Grav.}\n\\newcommand{\\mnras}{Mon.",
+    "end": "ky, \\apj\\ {\\bf 185}, 635 (1973).\n\n\\bibitem{sasaknak} M.\\ Sasaki and T.\\ Nakamura, Prog.\\ Theor.\\ Phys.\\\n  {\\bf 67}, 1788 (1982).\n\n\\bibitem{ryan_circ} F.\\ D.\\ Ryan, Phys.\\ Ref.\\ D {\\bf 53}, 3064 (1996).\n\n\\bibitem{kennefick_ori} D.\\ Kennefick and A.\\ Ori, Phys.\\ Rev.\\ D {\\bf\n  53}, 4319 (1996).\n\n\\bibitem{mino_circ} Y.\\ Mino, unpublished Ph.\\ D.\\ thesis, Kyoto\n  University, 1996.\n\n\\bibitem{data} Data available at \\url{http://gmunu.mit.edu/sdrasco/snapshots/}\n\n\n\\end{thebibliography}\n\n\\end{document}"
+  },
+  "citations": [
+    "thorne_spin",
+    "schmidt",
+    "bpt",
+    "GG_kludge_fluxes",
+    "rezzolla03",
+    "ryan_circ,kennefick_ori,mino_circ",
+    "first_code",
+    "hughes_drasco",
+    "shafee_etal",
+    "kludge_hughes,GG_kludge_fluxes",
+    "iron_line_rev",
+    "SMBH",
+    "MTW",
+    "mcclintock_etal",
+    "Mino_adiabatic",
+    "shapiro",
+    "Carter",
+    "kludge_hughes",
+    "hughes_drasco,data",
+    "spin_measurements",
+    "membrane",
+    "iron_line_res",
+    "volonteri",
+    "fintan_circ,first_code",
+    "sago",
+    "skimming",
+    "teukolsky,sasaknak",
+    "Thorne_Ori",
+    "wilkins",
+    "gair_event_rates",
+    "LISA"
+  ],
+  "equations": [
+    "}\n\\newcommand{\\eeq}{",
+    "\\varpi^2 \\equiv r^2 + a^2\\;.",
+    "r_{\\rm ap}\\equiv\\frac{p}{1-e}\\;,\\quad r_{\\rm\nperi}\\equiv\\frac{p}{1+e}\\;.",
+    "\\tilde{E} =\n  \\sqrt{\\frac{\\kappa\\rho+2\\epsilon\\sigma - \n        2D\\sqrt{\\sigma(\\sigma\\epsilon^{2}+\\rho\\epsilon\\kappa-\\eta\\kappa^{2})}\n        }{\\rho^{2}+4\\eta\\sigma}}\\;.\\label{energy_def}",
+    "\\tilde{Q} = z_{-}\\left[\\tilde{a}^2(1-\\tilde{E}^2) +\n  \\frac{\\tilde{L}_z^2}{1-z_{-}}\\right]\\;."
+  ],
+  "first_table": "\\begin{table}[h]\n\\begin{tabular}{|c|c|c|c|c|c|c|c|c|}\n\\hline\n\\T \\B$i$ & \\B1 &\\B2 &\\B3 &\\B4 &\\B5 &\\B6 &\\B7 &\\B8\\\\\n\\hline\n\\T \\B$a_d^i$ & 15.8363 & 445.4418 & $-$2027.7797 & 3089.1709 & $-$2045.2248 & 498.6411 & $-$8.7220 & 50.8345 \\\\\n\\T \\B$b_d^i$ & $-$55.6777 & $-$1333.2461 & 5940.4831 & $-$9103.4472 & 6113.1165 & $-$1515.8506 & $-$50.8950 & $-$131.6422 \\\\\n\\T \\B$c_d^i$ & 38.6405  & 1049.5637 & $-$4513.0879 & 6926.3191 &-4714.9633 & 1183.5875 & 251.4025& 83.0834\\\\\n\\hline\n\\end{tabular}\n\\label{table:a_d_i_coefficients}\n\\end{table}"
+}
