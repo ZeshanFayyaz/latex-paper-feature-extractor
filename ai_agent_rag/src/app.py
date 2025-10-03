@@ -8,7 +8,7 @@ Endpoints:
 
 from fastapi import FastAPI
 from .models import QueryRequest, QueryResponse
-from .rag import PaperKnowledgeBase
+from .rag import KnowledgeBase
 from .mcp import build_prompt
 from .llm import call_llm
 
