@@ -10,6 +10,6 @@ fi
 payload=$(jq -n --arg ticket_text "$ticket" '{ticket_text: $ticket_text}')
 
 # Send to API
-curl -s -X POST "http://127.0.0.1:8000/resolve-ticket" \
+curl -s -X POST "http://127.0.0.1:8000/ask-paper" \
   -H "Content-Type: application/json" \
   -d "$payload" | jq .

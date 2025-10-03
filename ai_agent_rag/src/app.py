@@ -20,7 +20,7 @@ kb = None
 def ask_paper(query: QueryRequest) -> QueryResponse:
     global kb
     if kb is None:
-        kb = PaperKnowledgeBase()
+        kb = KnowledgeBase()
 
     retrieved = kb.retrieve(query.query, top_k=3)
     prompt = build_prompt(query.query, retrieved)
