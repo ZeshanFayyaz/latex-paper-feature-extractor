@@ -6,8 +6,8 @@ if [ -z "$ticket" ]; then
   exit 1
 fi
 
-# Build safe JSON payload using jq (never breaks)
-payload=$(jq -n --arg ticket_text "$ticket" '{ticket_text: $ticket_text}')
+# Build safe JSON payload using jq
+payload=$(jq -n --arg query "$ticket" '{query: $query}')
 
 # Send to API
 curl -s -X POST "http://127.0.0.1:8000/ask-paper" \
