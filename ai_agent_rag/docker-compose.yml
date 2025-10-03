@@ -1,14 +1,29 @@
 version: "3.8"
 
 services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/root/.ollama
+    restart: unless-stopped
+
   paper-agent:
     build: .
     container_name: paper-agent
+    depends_on:
+      - ollama
+    environment:
+      - OPENAI_BASE_URL=http://ollama:11434/v1
+      - OPENAI_API_KEY=sk-noop
     ports:
       - "8000:8000"
     volumes:
       - ./src:/app/src
-    environment:
-      - OPENAI_API_KEY=${OPENAI_API_KEY}
-      - OLLAMA_MODEL=llama3.1:8b
+      - ./input:/app/input
     command: uvicorn src.app:app --host 0.0.0.0 --port 8000
+
+volumes:
+  ollama_models:
