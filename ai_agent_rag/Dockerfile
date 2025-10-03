@@ -18,7 +18,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # 5. Copy project code
 COPY src/ src/
 COPY ask.sh .
-COPY README.md .
 
 # 6. Expose the FastAPI port
 EXPOSE 8000
