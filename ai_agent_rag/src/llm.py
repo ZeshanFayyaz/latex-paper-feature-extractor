@@ -37,7 +37,7 @@ def call_llm(prompt: str, model: str = None) -> QueryResponse:
         resp = client.chat.completions.create(
             model=model, messages=messages,
             response_format={"type": "json_object"},
-            temperature=0, timeout=30
+            temperature=0, timeout=120
         )
         text = resp.choices[0].message.content.strip()
         try:

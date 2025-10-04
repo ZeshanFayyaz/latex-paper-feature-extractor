@@ -22,7 +22,7 @@ def ask_paper(query: QueryRequest) -> QueryResponse:
     if kb is None:
         kb = KnowledgeBase()
 
-    retrieved = kb.retrieve(query.query, top_k=10)
+    retrieved = kb.retrieve(query.query, top_k=5)
     prompt = build_prompt(query.query, retrieved)
     return call_llm(prompt)
 

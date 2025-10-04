@@ -106,22 +106,18 @@ class KnowledgeBase:
         self._embs = embs
         print("[RAG] FAISS index built successfully.")
 
-    def retrieve(self, query: str, top_k: int = 3) -> List[Dict]:
-        """Retrieve top-k most relevant text chunks for the query."""
-        print("[RAG] Encoding query for retrieval:", query)
+    def retrieve(self, query: str, top_k: int = 2) -> List[Dict]:
+        results = []
         q_emb = self.model.encode(
             [query],
             convert_to_numpy=True,
             normalize_embeddings=True
         ).astype("float32")
-
         scores, idxs = self.index.search(q_emb, top_k)
-        print("[RAG] Top-k scores:", scores)
-
-        results = []
         for i in idxs[0]:
             entry = self.entries[int(i)]
-            results.append({"text": entry.text, "reference": entry.reference})
-
-        print("[RAG] Retrieved top chunks:", [r["reference"] for r in results])
+            # Truncate long chunks
+            text = entry.text[:1000]
+            results.append({"text": text, "reference": entry.reference})
         return results
+
