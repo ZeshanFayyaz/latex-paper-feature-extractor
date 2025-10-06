@@ -38,17 +38,22 @@ It is ideal for:
 3. Post-processing – Whitespace normalization, deduplication, trimming, and sampling  
 4. Output – Save structured JSON to `output/`
 
-### Regex System Architecture
-
-<div align="center">
-  <img src="refs/regex_architecture.svg" alt="Regex Architecture Diagram" width="600"/>
-</div>
+---
 
 ### Usage
 ```bash
 cd baseline_regex
 python3 extract_features.py
 ```
+
+---
+
+### Regex System Architecture
+
+<div align="center">
+  <img src="refs/regex_architecture.svg" alt="Regex Architecture Diagram" width="600"/>
+</div>
+
 ---
 
 ## 1. Intelligent RAG Querying App (`ai_agent_rag/`)
