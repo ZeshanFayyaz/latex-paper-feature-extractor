@@ -70,6 +70,8 @@ Everything runs in Docker Compose to ensure an easy setup:
 
 - A single docker compose up brings the whole system online
 
+---
+
 ### Tech Stack
 
 - **FastAPI** - lightweight framework for serving the Knowledge Assistant API
