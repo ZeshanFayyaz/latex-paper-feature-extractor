@@ -80,7 +80,7 @@ Everything runs in Docker Compose to ensure an easy setup:
 
 ---
 
-### How to Run 
+### Usage
 
 1. **Clone the repository**
 
