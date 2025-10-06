@@ -111,7 +111,8 @@ Everything runs in Docker Compose to ensure an easy setup:
     ```
 
 --- 
-The following image depicts the system architecture: 
+
+### AI System Architecture
 
 <div align="center">
   <img src="refs/ai_agent_architecture.svg" alt="AI Agent Architecture Diagram" width="600"/>
