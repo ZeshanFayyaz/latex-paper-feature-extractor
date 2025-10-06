@@ -1,4 +1,4 @@
-# Scientific Paper Metadata Extraction
+# LaTeX-Written Scientific Paper Feature Extraction
 
 This repository demonstrates two complementary approaches for extracting structured data from scientific LaTeX papers — starting from a simple regex-based parser and scaling up to an AI-powered RAG (Retrieval-Augmented Generation) system.
 
