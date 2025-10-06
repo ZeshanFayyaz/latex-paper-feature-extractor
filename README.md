@@ -41,7 +41,7 @@ It is ideal for:
 ### Regex System Architecture
 
 <div align="center">
-  <img src="refs/regex_architecture.svg" alt="Regex Architecture Diagram" width="400"/>
+  <img src="refs/regex_architecture.svg" alt="Regex Architecture Diagram" width="600"/>
 </div>
 
 ### Usage
@@ -114,5 +114,5 @@ Everything runs in Docker Compose to ensure an easy setup:
 The following image depicts the system architecture: 
 
 <div align="center">
-  <img src="refs/ai_agent_architecture.svg" alt="AI Agent Architecture Diagram" width="400"/>
+  <img src="refs/ai_agent_architecture.svg" alt="AI Agent Architecture Diagram" width="600"/>
 </div>
